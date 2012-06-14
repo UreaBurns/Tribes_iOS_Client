@@ -33,6 +33,7 @@
 		C0038BC21589216B0070040F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0038BC11589216B0070040F /* libxml2.dylib */; };
 		C0038BC41589217C0070040F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0038BC31589217C0070040F /* QuartzCore.framework */; };
 		C0038BC715893BFF0070040F /* TribesWebServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C0038BC615893BFF0070040F /* TribesWebServiceTest.m */; };
+		C025F3F415897F1E0035F847 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = C025F3F315897F1E0035F847 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +122,8 @@
 		C0038BC31589217C0070040F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C0038BC515893BFF0070040F /* TribesWebServiceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TribesWebServiceTest.h; sourceTree = "<group>"; };
 		C0038BC615893BFF0070040F /* TribesWebServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TribesWebServiceTest.m; sourceTree = "<group>"; };
+		C025F3F215897F1E0035F847 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		C025F3F315897F1E0035F847 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -197,6 +200,7 @@
 		C0038B6415891AB00070040F /* Tribes_iOS_Client */ = {
 			isa = PBXGroup;
 			children = (
+				C025F3F115897EEA0035F847 /* Generated Objects */,
 				C0038BC515893BFF0070040F /* TribesWebServiceTest.h */,
 				C0038BC615893BFF0070040F /* TribesWebServiceTest.m */,
 				C0038BC815893C110070040F /* Tests */,
@@ -269,6 +273,15 @@
 			children = (
 			);
 			name = Tests;
+			sourceTree = "<group>";
+		};
+		C025F3F115897EEA0035F847 /* Generated Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C025F3F215897F1E0035F847 /* Test.h */,
+				C025F3F315897F1E0035F847 /* Test.m */,
+			);
+			name = "Generated Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -430,6 +443,7 @@
 				C0038B7B15891AB10070040F /* MasterViewController.m in Sources */,
 				C0038B7E15891AB10070040F /* DetailViewController.m in Sources */,
 				C0038BC715893BFF0070040F /* TribesWebServiceTest.m in Sources */,
+				C025F3F415897F1E0035F847 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

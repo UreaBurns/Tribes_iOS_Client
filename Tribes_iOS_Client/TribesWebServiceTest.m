@@ -26,8 +26,17 @@
         
         if ([response isOK])
         {
-            // Success! Let's take a look at the data
-            NSLog(@"Retrieved JSON: %@", [response bodyAsString]);
+            if ([response isJSON])
+            {
+                // Success! Let's take a look at the data
+                NSLog(@"Retrieved JSON response: %@", [response bodyAsString]);
+
+            }
+            else
+            {
+                // Success! Let's take a look at the data
+                NSLog(@"Retrieved response: %@", [response bodyAsString]);
+            }
         }
         
     }
