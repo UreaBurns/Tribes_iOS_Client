@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'Tribes_iOS_Client' target in the 'Tribes_iOS_Client' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CFNetwork/CFNetwork.h>
+    #import <CoreData/CoreData.h>
+    #import <RestKit/RestKit.h>
+#endif
+
